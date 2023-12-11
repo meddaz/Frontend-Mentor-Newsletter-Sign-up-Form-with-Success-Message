@@ -56,8 +56,10 @@ height: 842px;
 
 
 #signup {
-    position: absolute;
     width: 400px;
+    margin:auto;
+    position: absolute;
+ 
     height: 593px;
     left: 52%;
     top: 32px;
