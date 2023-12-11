@@ -8,7 +8,6 @@ function subscribe() {
   var error = document.getElementById("error");
 
   if (isValidEmail(userEmail)) {
-      console.log("Email is valid.");
 
       card.innerHTML = `
           <img src='assets/images/icon-success.svg' id='successIcon' />
@@ -25,7 +24,6 @@ function subscribe() {
       var image = document.getElementById("signup");
       image.remove();
   } else {
-      alert("Email is not valid");
       document.getElementById("signupForm").style.backgroundColor = 'rgba(255, 98, 87, 0.5)';
       document.getElementById("signupForm").style.color = "#FF6155";
       document.getElementById("signupForm").style.fontWeight = "bold";
@@ -33,6 +31,5 @@ function subscribe() {
 
       error.innerHTML = "Valid email required";
 
-      console.log("Email is not valid.");
   }
 }
