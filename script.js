@@ -10,7 +10,7 @@ function subscribe() {
   if (isValidEmail(userEmail)) {
 
       card.innerHTML = `
-          <img src='assets/images/icon-success.svg' id='successIcon' />
+          <img src='icon-success.svg' id='successIcon' />
           <h1>Thanks for subscribing!</h1>
           <p>A confirmation has been sent to ${userEmail}. Please open it and click the button inside to confirm your subscription.</p>
           <br>
