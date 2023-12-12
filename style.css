@@ -17,6 +17,12 @@ li {
     list-style-type: none;
 }
 
+.mobile-img {
+    display:none;
+}
+
+
+
 #container {
     display: flex;
     justify-content: center;
@@ -147,25 +153,17 @@ height: 842px;
     line-height: 150%;
 }
 
-#mobileSignup {
-    display:none;
-}
-
+ 
 
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     #signup {
-       width: 375px;
-       height: 284px;
-       left: 0px;
-   top: 0px;
+display:none;
     }  
-#mobileSignup {
-    display: flex;
-    position: relative;
-    left: 20px;
+.mobile-img {
+    visibility:visible;
 }
-
+}
 
 }
    
