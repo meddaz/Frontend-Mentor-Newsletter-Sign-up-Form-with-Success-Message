@@ -3,9 +3,9 @@ function subscribe() {
         return /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
     }
   
-    var userEmail = document.getElementById("signupForm").value;
-    var card = document.getElementById("card");
-    var error = document.getElementById("error");
+    const userEmail = document.getElementById("signupForm").value;
+    const card = document.getElementById("card");
+    const error = document.getElementById("error");
   
     if (isValidEmail(userEmail)) {
   
@@ -21,7 +21,7 @@ function subscribe() {
         card.style.height = '520px';
         card.style.padding = '90px';
   
-        var image = document.getElementById("signup");
+        const image = document.getElementById("signup");
         image.remove();
     } else {
         document.getElementById("signupForm").style.backgroundColor = 'rgba(255, 98, 87, 0.5)';
@@ -35,9 +35,9 @@ function subscribe() {
   }
   
   function resize() {
-
+const signupElement = document.getElemmentById("signup");
     if (window.innerWidth < 700) {
 
-     document.getElementById("signup").innerHTML  = <img src="assets\images\illustration-sign-up-mobile.svg" id="mobileSignup"></img>
+     signupElement.innerHTML  = `<img src="assets\images\illustration-sign-up-mobile.svg" id="mobileSignup">`
     }
 }
