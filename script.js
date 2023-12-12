@@ -35,9 +35,9 @@ function subscribe() {
   }
   
   function resize() {
-const signupElement = document.getElemmentById("signup");
+const signupElement = document.getElementById("signup");
     if (window.innerWidth < 700) {
 
-     signupElement.innerHTML  = `<img src="assets\images\illustration-sign-up-mobile.svg" id="mobileSignup">`
+signupElement.innerHTML = '<img src="assets/images/illustration-sign-up-mobile.svg" id="mobileSignup">';
     }
 }
