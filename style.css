@@ -158,10 +158,7 @@ height: 842px;
 
 @media screen and (min-width: 576px) and (max-width: 768px) {
     #signup {
-       width: 375px;
-       height: 284px;
-       left: 0px;
-   top: 0px;
+display:none;
     }  
 .mobile-img {
     display: block;
