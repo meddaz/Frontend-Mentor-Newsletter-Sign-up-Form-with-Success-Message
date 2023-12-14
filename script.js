@@ -6,6 +6,7 @@ function subscribe() {
     const userEmail = document.getElementById("signupForm").value;
     const card = document.getElementById("card");
     const error = document.getElementById("error");
+        const image = document.getElementById("signup");
   
     if (isValidEmail(userEmail)) {
   
@@ -21,7 +22,6 @@ function subscribe() {
         card.style.height = '520px';
         card.style.padding = '90px';
   
-        const image = document.getElementById("signup");
         image.remove();
     } else {
         document.getElementById("signupForm").style.backgroundColor = 'rgba(255, 98, 87, 0.5)';
@@ -30,7 +30,7 @@ function subscribe() {
         document.getElementById("signupForm").style.fontSize = "12px";
   
         error.innerHTML = "Valid email required";
-  
+   image.remove();
     }
   }
   
