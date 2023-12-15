@@ -6,10 +6,9 @@ function subscribe() {
     const userEmail = document.getElementById("signupForm").value;
     const card = document.getElementById("card");
     const error = document.getElementById("error");
-    const immage = document.getElementById("signup");
-const mobileImg = document.getElementsByClassName("mobile-img");  
     if (isValidEmail(userEmail)) {
-  
+      const immage = document.getElementById("signup");
+
         card.innerHTML = `
             <img src='icon-success.svg' id='successIcon' />
             <h1>Thanks for subscribing!</h1>
@@ -24,6 +23,8 @@ const mobileImg = document.getElementsByClassName("mobile-img");
   
         image.remove();
     } else {
+        const mobileImg = document.getElementsByClassName("mobile-img");  
+
         document.getElementById("signupForm").style.backgroundColor = 'rgba(255, 98, 87, 0.5)';
         document.getElementById("signupForm").style.color = "#FF6155";
         document.getElementById("signupForm").style.fontWeight = "bold";
