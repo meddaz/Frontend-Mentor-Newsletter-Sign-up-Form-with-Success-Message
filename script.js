@@ -33,6 +33,7 @@ function subscribe() {
   
         error.innerHTML = "Valid email required";
    mobileImg.remove();
-    }
+            image.remove();
+}
   }
   
