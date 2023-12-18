@@ -7,7 +7,6 @@ function subscribe() {
     const card = document.getElementById("card");
     const error = document.getElementById("error");
     if (isValidEmail(userEmail)) {
-      const immage = document.getElementById("signup");
 
         card.innerHTML = `
             <img src='icon-success.svg' id='successIcon' />
@@ -20,15 +19,17 @@ function subscribe() {
         card.style.width = '504px';
         card.style.height = '520px';
         card.style.padding = '90px';
-  
+        const immage = document.getElementById("signup");
+
         image.remove();
     } else {
-        const mobileImg = document.getElementsByClassName("mobile-img");  
 
         document.getElementById("signupForm").style.backgroundColor = 'rgba(255, 98, 87, 0.5)';
         document.getElementById("signupForm").style.color = "#FF6155";
         document.getElementById("signupForm").style.fontWeight = "bold";
         document.getElementById("signupForm").style.fontSize = "12px";
+
+        const mobileImg = document.getElementsByClassName("mobile-img");  
   
         error.innerHTML = "Valid email required";
    mobileImg.remove();
