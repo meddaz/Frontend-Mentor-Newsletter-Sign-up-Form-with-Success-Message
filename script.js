@@ -32,14 +32,3 @@ const mobileImg = document.getElementByClassName("mobile-img");
    mobileImg.remove();
     }
   }
-  
-  function resize() {
-const signupElement = document.getElemmentById("signup");
-    if (window.innerWidth < 700) {
-
-     signupElement.innerHTML  = `<img src="assets\images\illustration-sign-up-mobile.svg" id="mobileSignup">`
-    }
-    else {
-        signupElement.innerHTML = ''; // or set it to some default value
-    }
-}
