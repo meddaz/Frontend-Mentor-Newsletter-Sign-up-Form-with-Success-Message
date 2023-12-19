@@ -23,6 +23,7 @@ const mobileImg = document.getElementsByClassName("mobile-img");
         card.style.width = '504px';
         card.style.height = '520px';
         card.style.padding = '90px';
+   mobileImg.remove();
   
         image.remove();
     } else {
