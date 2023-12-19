@@ -6,7 +6,10 @@ function subscribe() {
     const userEmail = document.getElementById("signupForm").value;
     const card = document.getElementById("card");
     const error = document.getElementById("error");
+    const image = document.getElementById("signup");
 const mobileImg = document.getElementsByClassName("mobile-img");  
+    
+    
     if (isValidEmail(userEmail)) {
   
         card.innerHTML = `
