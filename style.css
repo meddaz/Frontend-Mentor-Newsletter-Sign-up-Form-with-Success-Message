@@ -17,7 +17,7 @@ li {
     list-style-type: none;
 }
 
-.mobile-img {
+#mobile-img {
     display:none;
 }
 
@@ -160,7 +160,7 @@ height: 842px;
     #signup {
 display:none;
     }  
-.mobile-img {
+#mobile-img {
     display: block;
     position: relative;
     left: 20px;
