@@ -7,7 +7,7 @@ function subscribe() {
     const card = document.getElementById("card");
     const error = document.getElementById("error");
     const image = document.getElementById("signup");
-const mobileImg = document.getElementsByClassName("mobile-img");  
+const mobileImg = document.getElementById("mobile-img");  
     
     
     if (isValidEmail(userEmail)) {
