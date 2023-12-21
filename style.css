@@ -165,8 +165,10 @@ display:none;
 #mobile-img {
     display: block;
     position: relative;
-    left: 20px;
-    width: 100%;
+width: 375px;
+height: 284px;
+left: 0px;
+top: 0px;
     }
 
 }
