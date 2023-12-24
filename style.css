@@ -150,7 +150,7 @@ li {
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
-#card {
+#container {
 position: relative;
 width: 375px;
 height: 842px;
