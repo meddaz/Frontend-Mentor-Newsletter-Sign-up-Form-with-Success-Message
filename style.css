@@ -150,6 +150,10 @@ li {
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
+
+    #main {
+        padding:0;
+    }
 #container {
  width: 375px;
 height: 842px;
