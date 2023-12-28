@@ -154,7 +154,9 @@ li {
       margin: 0;
       padding: 0;
     }
-    
+
+    body {
+        text-align:center;}
 #container {
  width: 375px;
 height: 842px;
@@ -172,7 +174,7 @@ display:none;
     }  
 #mobile-img {
     display: block;
-text-align:center;
+
     width: 375px;
 height: 284px;
 left: 0px;
