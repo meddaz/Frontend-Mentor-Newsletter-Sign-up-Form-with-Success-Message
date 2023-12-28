@@ -157,7 +157,7 @@ li {
 #container {
  width: 375px;
 height: 842px;
-    position:absolute;
+    position:relative;
 top:285px;
    
 }
