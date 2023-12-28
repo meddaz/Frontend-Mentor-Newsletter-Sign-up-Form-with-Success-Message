@@ -172,7 +172,7 @@ display:none;
     }  
 #mobile-img {
     display: block;
-display:block;
+text-align:center;
     width: 375px;
 height: 284px;
 left: 0px;
