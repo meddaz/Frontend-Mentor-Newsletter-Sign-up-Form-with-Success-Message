@@ -155,8 +155,7 @@ li {
       padding: 0;
     }
 
-    body {
-        text-align:center;}
+  
 #container {
  width: 375px;
 height: 842px;
@@ -177,7 +176,7 @@ display:none;
 
     width: 375px;
 height: 284px;
-left: 0px;
+left: 50%;
 top: 0px;
     to
     }
