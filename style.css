@@ -175,10 +175,14 @@ display:none;
     }  
 #mobile-img {
 
-    width: 375px;
+    display: block;
+    position: relative;
+width: 375px;
+ 
 height: 284px;
+left: 0px;
 top: 0px;
-    left:0px;
+
     }
 
 }
