@@ -150,20 +150,19 @@ li {
 
 
 @media screen and (min-width: 320px) and (max-width: 768px) {
- * {
+/* * {
       margin: 0;
       padding: 0;
     }
 main {
         height: 100vh;
     width:100vw;
-}
+}*/
   
 #container {
  width: 375px;
 height: 842px;
 top:285px;
-display:block;   
 }
   #cardText {
     padding: 7rem 9rem;
@@ -175,7 +174,6 @@ height: 842px;
 display:none;
     }  
 #mobile-img {
-    display: block;
 
     width: 375px;
 height: 284px;
