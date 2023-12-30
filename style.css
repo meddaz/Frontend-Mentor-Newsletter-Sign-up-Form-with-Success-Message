@@ -174,9 +174,8 @@ height: 842px;
 display:none;
     }  
 #mobile-img {
-
+top:0;
     display: block;
-    position: relative;
 width: 375px;
  
 height: 284px;
