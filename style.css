@@ -178,12 +178,12 @@ display:none;
 top:0;
     display: block;
 width: 375px;
- 
 height: 284px;
 left: 0px;
 top: 0px;
-
+z-index:1;
     }
-
+#card {
+    z-index:2;
 }
-   
+}
