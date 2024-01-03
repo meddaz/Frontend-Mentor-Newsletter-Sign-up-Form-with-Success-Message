@@ -58,7 +58,192 @@ li {
     position: absolute;
     width: 400px;
     height: 593px;
-    left: 52%;
+    left: 30%;
+    top: 32px;
+}
+
+  
+
+.icon {
+    padding: 5px;
+}
+
+.emailLabel {
+    width: 76px;
+    height: 18px;
+    font-weight: 700;
+    font-size: 12px;
+    color: #242742;
+    float: left;
+    margin-top: 20px;
+}
+
+.signupForm {
+    width: 154px;
+    height: 24px;
+    font-size: 16px;
+    border: 1px solid #FF6155;
+}
+
+
+
+#subscribeBtn {
+    width: 376px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #242742;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+
+}
+
+#subscribeBtn:hover {
+    background-color: #ff6257;
+    border-color: #ff6257;
+}
+
+
+
+
+#signupForm {
+    left: 22.22%;
+    right: 51.67%;
+    top: 57.96%;
+    bottom: 36.85%;
+    width: 378px;
+    height: 56px;
+
+}
+
+#error {
+    color: #FF6155;
+    display: inline-block;
+    margin-left: 150px;
+    margin-top: 20px;
+
+}
+
+
+#newsletter {
+    margin-top: -50px;
+}
+
+
+#dismissMsg {
+    left: 22.22%;
+    right: 51.67%;
+    top: 57.96%;
+    bottom: 36.85%;
+    width: 378px;
+    height: 56px;
+    border-radius: 8px;
+    background-color: #242742;
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 150%;
+}
+
+ 
+
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+* {
+      margin: 0;
+      padding: 0;
+    }
+main {
+        height: 100vh;
+    width:100vw;
+    display:inline-block;
+}
+  
+#container {
+ width: 375px;
+height: 842px;
+top:285px;
+}
+  #cardText {
+    padding: 7rem 9rem;
+
+        width: 375px;
+height: 842px;
+    } 
+    #signup {
+display:none;
+    }  
+#mobile-img {
+
+    display: block;
+width: 375px;
+height: 284px;
+left: 0px;
+top: -25%;
+    }
+}
+body {
+    background: #36384D;
+    font-family: 'Roboto', sans-serif;
+    margin:0;
+}
+
+h1 {
+    font-size: 50px;
+    font-weight: bold;
+}
+
+ul {
+    margin-left: -40px;
+}
+
+li {
+    list-style-type: none;
+}
+
+#mobile-img {
+    display:none;
+}
+
+
+
+#container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#card {
+
+    box-sizing: border-box;
+    width: 928px;
+    height: 641px;
+    background: #FFFFFF;
+    box-shadow: 0px 15px 60px rgba(0, 0, 0, 0.25);
+    border-radius: 36px;
+    color: #242742;
+    left: 256px;
+    top: 219px;
+   
+    padding: 20px;
+}
+
+.cardText {
+    padding: 20px;
+    width: 376px;
+    height: 446px;
+    white-space: nowrap;
+}
+
+
+
+
+#signup {
+    position: absolute;
+    width: 400px;
+    height: 593px;
+    left: 30%;
     top: 32px;
 }
 
