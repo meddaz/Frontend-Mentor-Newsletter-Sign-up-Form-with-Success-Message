@@ -171,10 +171,15 @@ top:285px;
 }
   #cardText {
     padding: 7rem 9rem;
-    width: 375px;
+  
+width: 327px;
+height: 276px;
+left: 24px;
+top: 324px;
+  
+/* width: 375px;
     height: 284px;
-    
-/*        width: 375px;
+           width: 375px;
 height: 842px;*/
 
 
