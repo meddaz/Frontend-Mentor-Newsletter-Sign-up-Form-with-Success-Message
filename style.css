@@ -355,7 +355,8 @@ top:285px;
 
         width: 375px;
 height: 842px;
-      left:-170px;
+/*left:-170px;*/
+      left:0px;
     } 
     #signup {
 display:none;
