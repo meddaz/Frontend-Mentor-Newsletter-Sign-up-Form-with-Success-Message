@@ -168,6 +168,7 @@ width: 375px;
 height: 284px;
 
 top:285px;
+    margin:auto;
 }
   #cardText {
     padding: 7rem 9rem;
