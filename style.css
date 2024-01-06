@@ -162,13 +162,18 @@ main {
   
 #container {
  /*width: 375px;
-height: 842px;*/
+height: 842px;
+    top:285px;
+    margin:auto;
+
+
+    */
 
 width: 375px;
 height: 284px;
 
-top:285px;
-    margin:auto;
+        display: grid;
+    align-items: center;
 }
   #cardText {
     padding: 7rem 9rem;
