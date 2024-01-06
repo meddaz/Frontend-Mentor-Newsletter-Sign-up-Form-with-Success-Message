@@ -164,8 +164,8 @@ main {
 position: absolute;
 width: 375px;
 height: 284px;
-left: 0px;
-top: 0px;
+/*left: 0px;
+top: 0px;*/
 
 }
   #cardText {
@@ -190,7 +190,9 @@ display:none;
     display: block;
     width: 375px;
     height: 284px;
-    left: 0px;
-top: -25%;
+/*    left: 0px;
+top: -25%;*/
+
+    top:0;
     }
 }
