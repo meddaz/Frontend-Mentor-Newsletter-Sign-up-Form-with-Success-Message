@@ -161,19 +161,12 @@ main {
 }
   
 #container {
- /*width: 375px;
-height: 842px;
-    top:285px;
-    margin:auto;
-
-
-    */
-
+position: absolute;
 width: 375px;
 height: 284px;
+left: 0px;
+top: 0px;
 
-        display: grid;
-    align-items: center;
 }
   #cardText {
     padding: 7rem 9rem;
