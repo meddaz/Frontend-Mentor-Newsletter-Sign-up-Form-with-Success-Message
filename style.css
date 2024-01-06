@@ -176,16 +176,12 @@ top:285px;
 width: 327px;
 height: 276px;
 top: 324px;
-      right:-100px;
   
-/* left: 24px;
-      width: 375px;
-    height: 284px;
-           width: 375px;
-height: 842px;*/
-
-
+left: 24px;
+height: 842px;
     } 
+
+    
     #signup {
 display:none;
     }  
